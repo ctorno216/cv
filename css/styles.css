@@ -1,21 +1,38 @@
+/********************************************TAG Selectors**********************************************/
+
+
 body {
   background-color: #eaf6f6;
 }
 
 hr {
+  background-color: EAF6F6;
+  border-color: grey;
+  border-spacing: 2px;
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
-  border-spacing: 2px;
-  border-color: grey;
-  background-color: EAF6F6;
   width: 2.5%;
 }
 
+
+
 h1 {
-    color: #66bfbf;
+  color: #66bfbf;
 }
 
 h3 {
-    color: #66bfbf;
+  color: #66bfbf;
+}
+
+/********************************************CLASS Selectors**********************************************/
+.headshot {
+    border: 2px;
+    height: 200px;
+    width: 200px;
+}
+
+/********************************************ID Selectors**********************************************/
+#Heading{
+    color: #468080;
 }
